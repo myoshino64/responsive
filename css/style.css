@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap&#39;');
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+@media (min-width: 300px) {
+  .call-action {
+    text-align: center;
+    background-image: url("/img2/dashboard-img.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10%;
+  }
+
+  .call-action p {
+    padding-top: 8%;
+  }
+
+  .about {
+    padding: 15% 5% 10% 5%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about > h2 {
+    border-bottom: 1px solid cornflowerblue;
+    width: fit-content;
+    padding-bottom: 3%;
+  }
+
+  .about > div figure  {
+    padding: 8%;
+  }
+
+  .about > div:nth-child(1) {
+    padding-top: 10%;
+  }
+
+  .about p {
+    padding-top: 5%;
+  }
+
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10% 5%;
+    min-height: 35vh;
+  }
+
+  .testimonials > h2 {
+    border-bottom: 1px solid white;
+    padding-bottom: 5%;
+  }
+
+  .testimonials > p {
+    text-align: center;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+    height: 30vh;
+    justify-content: center;
+  }
+
+  footer > div, footer > span {
+    width: 65%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  /* 
+  ^= Starts with
+  *= Contains
+  $= Ends with
+  */
+
+  footer [class^="fa-"] {
+    text-decoration: none;
+    color: gray;
+    font-size: 22px;
+  }
+
+  footer a {
+    color: cornflowerblue;
+    text-decoration: none;
+  }
+}
