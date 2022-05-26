@@ -254,7 +254,7 @@ body {
     flex-direction: column;
     row-gap: 15px;
     align-items: center;
-    height: 30vh;
+    min-height: 30vh;
     justify-content: center;
   }
 
@@ -279,5 +279,61 @@ body {
   footer a {
     color: cornflowerblue;
     text-decoration: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .about {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .about > h2 {
+    padding-bottom: 2%;
+    font-size: 36px;
+  }
+
+  .about div > figure {
+    padding: 1%;
+    padding-top: 2%;
+  }
+
+  .about img {
+    width: 60%;
+  }
+
+  .about figcaption {
+    font-size: 30px;
+  }
+
+  .about p {
+    font-size: 24px;
+  }
+
+  .testimonials {
+    min-height: 15vh;
+  }
+
+  .testimonials > h2 {
+    padding-bottom: 2%;
+    font-size: 36px;
+  }
+
+  .testimonials > p {
+    font-size: 20px;
+    padding-top: 2%;
+  }
+
+  footer {
+    min-height: 15vh;
+  }
+
+  footer > div, footer > span {
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer > div {
+    column-gap: 30px;
   }
 }
