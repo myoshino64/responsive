@@ -281,3 +281,74 @@ body {
     text-decoration: none;
   }
 }
+
+@media (min-width: 1000px) {
+  .services > h2 {
+    width: 100%;
+    font-size: 50px;
+    padding-bottom: 2%;
+  }
+
+  .services > article {
+    width: 25%;
+  }
+
+  .call-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .call-action > p {
+    font-size: 22px;
+  }
+
+  .about > h2,
+  .call-action > h2 {
+    width: fit-content;
+    border-bottom: 2px solid cornflowerblue;
+    font-size: 50px;
+    padding: 2%;
+  }
+
+  .about {
+    padding-top: 5%;
+    padding-bottom: 8%;
+  }
+
+  .about > h2 {
+    padding-bottom: 2%;
+  }
+
+  .about > div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 95%;
+    padding-top: 5%;
+  }
+
+  .about div > figure {
+    width: 30%;
+    padding: 0;
+  }
+
+  .testimonials {
+    padding-top: 5%;
+    padding-bottom: 8%
+  }
+
+  .testimonials > h2 {
+    font-size: 50px;
+  }
+
+  .testimonials > p {
+    font-size: 30px;
+  }
+
+  footer [class^="fa"] {
+    font-size: 28px;
+  }
+}
