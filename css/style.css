@@ -283,6 +283,14 @@ body {
 }
 
 @media (min-width: 600px) {
+  .call-action > h2  {
+    font-size: 36px;
+  }
+
+  .call-action > p {
+    font-size: 24px;
+  }
+
   .about {
     padding-top: 5%;
     padding-bottom: 5%;
