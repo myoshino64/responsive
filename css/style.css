@@ -421,6 +421,53 @@ body {
 }
 
 @media (min-width: 1000px) {
+  header > article:nth-child(1) {
+    /* pseudo selector */
+    width: 100%;
+  }
+
+  nav {
+    width: 58%;
+  }
+
+  nav > ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav li {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+  }
+
+  nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    width: 100%;
+    padding: 5%;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+  nav a:hover {
+    background-color: darkslateblue;
+    border: 1px solid whitesmoke;
+  }
+
+  details {
+    display: none;
+  }
+
+  .features {
+    padding-bottom: 2%;
+  }
+
+  .features > article {
+    flex-wrap: unset;
+  }
+
   .computer {
     flex-direction: row;
     justify-content: center;
