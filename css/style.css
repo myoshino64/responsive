@@ -283,6 +283,33 @@ body {
 }
 
 @media (min-width: 600px) {
+  .features {
+    padding-top: 5%;
+    padding-bottom: 3%;
+  }
+
+  .features > article {
+    width: 80%;
+    justify-content: space-evenly;
+  }
+
+  .features > h2 {
+    font-size: 36px;
+    padding-bottom: 2%;
+  }
+
+  .features i {
+    font-size: 30px;
+  }
+
+  .features h4 {
+    font-size: 20px;
+  }
+
+  .features p {
+    font-size: 18px;
+  }
+
   .computer > article {
     align-items: center;
   }
