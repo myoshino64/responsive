@@ -283,6 +283,22 @@ body {
 }
 
 @media (min-width: 600px) {
+  .computer > article {
+    align-items: center;
+  }
+
+  .computer div {
+    width: 80%;
+  }
+
+  .computer h3 {
+    font-size: 28px;
+  }
+
+  .computer p {
+    font-size: 22px;
+  }
+
   .services {
     padding-top: 5%;
   }
