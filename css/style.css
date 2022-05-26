@@ -283,6 +283,28 @@ body {
 }
 
 @media (min-width: 600px) {
+  .services {
+    padding-top: 5%;
+  }
+
+  .services > h2 {
+    font-size: 36px;
+    padding-top: 1%;
+    padding-bottom: 3%;
+  }
+
+  .services i {
+    font-size: 56px;
+  }
+
+  .services p {
+    font-size: 20px;
+  }
+
+  .services h3 {
+    font-size: 36px;
+  }
+
   .call-action > h2  {
     font-size: 36px;
   }
