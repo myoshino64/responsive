@@ -282,7 +282,158 @@ body {
   }
 }
 
+@media (min-width: 600px) {
+  header {
+    font-size: 22px;
+  }
+
+  header h1 {
+    font-size: 55px;
+  }
+
+  .features {
+    padding-top: 5%;
+    padding-bottom: 3%;
+  }
+
+  .features > article {
+    width: 80%;
+    justify-content: space-evenly;
+  }
+
+  .features > h2 {
+    font-size: 36px;
+    padding-bottom: 2%;
+  }
+
+  .features i {
+    font-size: 30px;
+  }
+
+  .features h4 {
+    font-size: 20px;
+  }
+
+  .features p {
+    font-size: 18px;
+  }
+
+  .computer > article {
+    align-items: center;
+  }
+
+  .computer div {
+    width: 80%;
+  }
+
+  .computer h3 {
+    font-size: 28px;
+  }
+
+  .computer p {
+    font-size: 22px;
+  }
+
+  .services {
+    padding-top: 5%;
+  }
+
+  .services > h2 {
+    font-size: 36px;
+    padding-top: 1%;
+    padding-bottom: 3%;
+  }
+
+  .services i {
+    font-size: 56px;
+  }
+
+  .services p {
+    font-size: 20px;
+  }
+
+  .services h3 {
+    font-size: 36px;
+  }
+
+  .call-action > h2  {
+    font-size: 36px;
+  }
+
+  .call-action > p {
+    font-size: 24px;
+  }
+
+  .about {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .about > h2 {
+    padding-bottom: 2%;
+    font-size: 36px;
+  }
+
+  .about div > figure {
+    padding: 1%;
+    padding-top: 2%;
+  }
+
+  .about img {
+    width: 60%;
+  }
+
+  .about figcaption {
+    font-size: 30px;
+  }
+
+  .about p {
+    font-size: 24px;
+  }
+
+  .testimonials {
+    min-height: 15vh;
+  }
+
+  .testimonials > h2 {
+    padding-bottom: 2%;
+    font-size: 36px;
+  }
+
+  .testimonials > p {
+    font-size: 20px;
+    padding-top: 2%;
+  }
+
+  footer {
+    min-height: 15vh;
+  }
+
+  footer > div, footer > span {
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer > div {
+    column-gap: 30px;
+  }
+}
+
 @media (min-width: 1000px) {
+  .computer {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .computer > article {
+    padding: 1%;
+    width: 45%;
+  }
+
+  .computer > article:nth-child(2) {
+    align-items: flex-start;
+}
+
   .services > h2 {
     width: 100%;
     font-size: 50px;
@@ -302,7 +453,9 @@ body {
   }
 
   .call-action > p {
-    font-size: 22px;
+    padding-top: 3%;
+    font-size: 28px;
+    width: 80%;
   }
 
   .about > h2,
@@ -311,15 +464,6 @@ body {
     border-bottom: 2px solid cornflowerblue;
     font-size: 50px;
     padding: 2%;
-  }
-
-  .about {
-    padding-top: 5%;
-    padding-bottom: 8%;
-  }
-
-  .about > h2 {
-    padding-bottom: 2%;
   }
 
   .about > div {
@@ -341,7 +485,10 @@ body {
   }
 
   .testimonials > h2 {
+    width: fit-content;
+    border-bottom: 2px solid whitesmoke;
     font-size: 50px;
+    padding-bottom: 2%;
   }
 
   .testimonials > p {
