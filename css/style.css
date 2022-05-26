@@ -254,7 +254,7 @@ body {
     flex-direction: column;
     row-gap: 15px;
     align-items: center;
-    height: 30vh;
+    min-height: 30vh;
     justify-content: center;
   }
 
@@ -417,6 +417,7 @@ body {
   footer > div {
     column-gap: 30px;
   }
+<<<<<<< HEAD
 }
 
 @media (min-width: 1000px) {
@@ -498,4 +499,6 @@ body {
   footer [class^="fa"] {
     font-size: 28px;
   }
+=======
+>>>>>>> 6d1de9f892c19221e8792db6a4055fdf8cb1ef5e
 }
